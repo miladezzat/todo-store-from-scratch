@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.todoApp .header {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.6);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.todoApp .todo,
+.todoApp .goal {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.todoApp .todoHeader,
+.todoApp .goalHeader {
+  padding-bottom: 1%;
+  font-weight: lighter;
+}
+.todoApp .input-item {
+  border: none;
+  padding: 1% 0.5%;
+  font-size: larger;
+  background-color: silver;
+  width: 75%;
+  margin-right: 2%;
+}
+.todoApp .button-item {
+  padding: 1% 0.5%;
+  font-size: larger;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+.complete {
+  background-size: 100% 100%;
+  padding: 20px;
+  margin-right: 10px;
+}
+.onGoing {
+  color: yellow;
+}
+
+.listItems {
+  padding: 2%;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 2% 0%;
+  float: left;
+  width: 98%;
+  clear: both;
+}
+.itemList {
+  float: left;
+  padding: 0 1%;
+  width: 98%;
+  clear: both;
+  margin-bottom: 1%;
+}
+.itemList span {
+  float: left;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.listButton {
+  content: "sadsd";
+  float: right;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 5px blanchedalmond;
+  background: url('./assets/delete.png') no-repeat;
+  background-size:100% 100%;
+}
+.listButton:hover {
+  content: none;
+  background-image: url("./assets/delete-hover.png");
+  background-size:100% 100%;
+}
